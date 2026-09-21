@@ -1,0 +1,21 @@
+{
+  "enableTerminalSandbox": true,
+  "toolPermission": "proceed-in-sandbox",
+  "allowNonWorkspaceAccess": false,
+  "permissions": {
+    "allow": [
+      "command(godot --headless)",
+      "command(npm test)",
+      "command(npm run test)",
+      "command(npm run lint)",
+      "command(npm run typecheck)",
+      "command(npm run build)"
+    ],
+    "deny": [
+      "command(git)",
+      "command(sudo)",
+      "command(rm -rf)",
+      "unsandboxed(*)"
+    ]
+  }
+}
