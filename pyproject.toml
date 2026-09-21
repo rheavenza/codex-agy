@@ -1,0 +1,8 @@
+[project]
+name = "codex-agy"
+version = "0.1.0"
+description = "MCP bridge: Codex senior/reviewer -> Antigravity implementation worker"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp[cli]>=2.0",
+]
