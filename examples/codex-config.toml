@@ -1,0 +1,5 @@
+[mcp_servers.ag_worker]
+command = "/home/YOU/.local/share/codex-agy/launch.sh"
+env = { AG_WORKSPACE = "/absolute/path/to/your/project" }
+startup_timeout_sec = 30
+tool_timeout_sec = 2400
